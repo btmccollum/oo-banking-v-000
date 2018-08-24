@@ -16,7 +16,7 @@ class BankAccount
 
   #allows for deposit of a valid amount to its @balance
   def deposit(amount)
-    # binding.pry
+    binding.pry
     @balance = @balance + amount unless amount < 0
   end
 
